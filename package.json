@@ -10,7 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@reactive-dot/react": "^0.4.0",
+    "jotai": "^2.9.1",
+    "jotai-scope": "^0.7.0",
     "polkadot-api": "^0.11.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"

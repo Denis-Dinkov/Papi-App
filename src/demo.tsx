@@ -1,5 +1,5 @@
-import { config } from "../config";
-import { useAccounts, useLazyLoadQuery, useBlock } from "@reactive-dot/react";
+import { config } from "./config";
+import { useAccounts, useLazyLoadQuery, useBlock } from "./@reactive-dot/react/src";
 
 export default function MyComponent() {
   const accounts = useAccounts();

@@ -1,5 +1,5 @@
-import { config } from "../config";
-import { ReDotChainProvider, ReDotProvider } from "@reactive-dot/react";
+import { config } from "./config.ts";
+import { ReDotChainProvider, ReDotProvider } from "./@reactive-dot/react/src";
 import { Suspense } from "react";
 import MyComponent from "./demo";
 export default function App() {

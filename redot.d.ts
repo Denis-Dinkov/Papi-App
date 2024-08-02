@@ -1,6 +1,6 @@
 import type { config } from "./config";
-import type { InferChains } from "@reactive-dot/core";
+import type { InferChains } from "../../../core/src";
 
-declare module "@reactive-dot/core" {
+declare module "../../../core/src" {
   export interface Chains extends InferChains<typeof config> {}
 }
