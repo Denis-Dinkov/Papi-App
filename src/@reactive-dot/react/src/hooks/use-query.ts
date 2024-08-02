@@ -169,7 +169,6 @@ export function useLazyLoadQuery<
       >,
       typeof IDLE
     > {
-      console.log('test' )
   const [data] = useLazyLoadQueryWithRefresh(builder, options);
 
   return data;
